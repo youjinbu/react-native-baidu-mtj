@@ -1,0 +1,88 @@
+{
+  "name": "@youjinbu/react-native-baidu-mtj",
+  "version": "0.1.0",
+  "description": "react-native wrapper for baidu mtj sdk",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "BaiduMobileAnalytics.podspec",
+    "!lib/typescript/example",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "prepare": "bob build",
+    "example": "yarn --cwd example",
+    "pods": "cd example && pod-install --quiet",
+    "bootstrap": "yarn example && yarn && yarn pods"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/youjinbu/react-native-baidu-mtj",
+  "author": "hehe <xpc1993@gmail.com> (https://github.com/hehex9)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youjinbu/react-native-baidu-mtj/issues"
+  },
+  "homepage": "https://github.com/youjinbu/react-native-baidu-mtj#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-native": "0.64.2",
+    "@youjinbu/eslint-config": "0.4.4",
+    "@youjinbu/prettier-config": "0.0.1",
+    "eslint": "7.23.0",
+    "pod-install": "0.1.18",
+    "prettier": "2.2.1",
+    "react": "17.0.2",
+    "react-native": "0.64.0",
+    "react-native-builder-bob": "0.18.1",
+    "typescript": "4.2.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@youjinbu"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "prettier": "@youjinbu/prettier-config",
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  }
+}
