@@ -1,4 +1,4 @@
-# react-native-baidu-mtj
+# react-native-baidu-mtj [WIP]
 
 react-native wrapper for [Baidu Mobile Analytics SDK](https://mtj.baidu.com/web/sdk/index)（百度移动统计）
 
@@ -44,6 +44,10 @@ declare const Analytics: {
     eventEnd(eventId: string, label: string): void;
 };
 ```
+
+## Requirements
+
+- react-native >= 0.60.0
 
 ## License
 
