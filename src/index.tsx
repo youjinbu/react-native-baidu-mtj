@@ -1,10 +1,35 @@
 import {NativeModules} from 'react-native'
 
-type BaiduMtjType = {
-  multiply(a: number, b: number): Promise<number>
+const {BaiduMtj} = NativeModules
+
+const Analytics = {
+  start(appKey: string, debug = true) {
+    BaiduMtj.start(appKey, __DEV__ ? debug : false)
+  },
+
+  setUserId(userId: string) {
+    BaiduMtj.setUserId(userId)
+  },
+
+  pageStart(pageName: string) {
+    BaiduMtj.onPageStart(pageName)
+  },
+
+  pageEnd(pageName: string) {
+    BaiduMtj.onPageEnd(pageName)
+  },
+
+  event(eventId: string, label: string, acc = 1) {
+    BaiduMtj.onEvent(eventId, label, acc)
+  },
+
+  eventStart(eventId: string, label: string) {
+    BaiduMtj.onEventStart(eventId, label)
+  },
+
+  eventEnd(eventId: string, label: string) {
+    BaiduMtj.onEventEnd(eventId, label)
+  },
 }
 
-const {BaiduMtj} = NativeModules
-console.log(NativeModules, BaiduMtj)
-
-export default BaiduMtj as BaiduMtjType
+export default Analytics
