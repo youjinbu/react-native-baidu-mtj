@@ -33,8 +33,8 @@ class BaiduMtjModule(private val reactContext: ReactApplicationContext) : ReactC
   }
 
   @ReactMethod
-  fun onEvent(eventId: String, label: String, acc: Int) {
-    StatService.onEvent(reactContext, eventId, label, acc)
+  fun onEvent(eventId: String, label: String) {
+    StatService.onEvent(reactContext, eventId, label)
   }
 
   @ReactMethod

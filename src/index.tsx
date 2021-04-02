@@ -19,8 +19,8 @@ const Analytics = {
     BaiduMtj.onPageEnd(pageName)
   },
 
-  event(eventId: string, label: string, acc = 1) {
-    BaiduMtj.onEvent(eventId, label, acc)
+  event(eventId: string, label: string) {
+    BaiduMtj.onEvent(eventId, label)
   },
 
   eventStart(eventId: string, label: string) {

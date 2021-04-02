@@ -1,6 +1,8 @@
 PODS:
   - BaiduMobileAnalytics (0.1.0):
+    - BaiduMobStat
     - React-Core
+  - BaiduMobStat (5.3.2)
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.64.0)
@@ -306,6 +308,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BaiduMobStat
     - boost-for-react-native
 
 EXTERNAL SOURCES:
@@ -369,7 +372,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  BaiduMobileAnalytics: 67d44000174bd369a9b555c5b03a5992d4d2e3e0
+  BaiduMobileAnalytics: d95690e559695a179d81f0fa90dd9ffb5fe70047
+  BaiduMobStat: f486c2f3786ef44e922ecc340139ee1b34ce0dc1
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   FBLazyVector: 49cbe4b43e445b06bf29199b6ad2057649e4c8f5
