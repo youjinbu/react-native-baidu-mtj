@@ -1,5 +1,8 @@
 @objc(BaiduMtj)
 class BaiduMtj: NSObject {
+  @objc static func requiresMainQueueSetup() -> Bool {
+    return false
+  }
 
   @objc(start:debug:)
   func start(appKey: String, debug: Int) -> Void {
