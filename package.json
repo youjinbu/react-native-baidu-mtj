@@ -31,7 +31,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "baidu",
+    "百度移动统计"
   ],
   "repository": "https://github.com/youjinbu/react-native-baidu-mtj",
   "author": "hehe <xpc1993@gmail.com> (https://github.com/hehex9)",
