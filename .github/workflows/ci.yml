@@ -40,10 +40,13 @@ jobs:
         with:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-node14-${{ hashFiles('**/pnpm-lock.yaml') }}
-      - name: Install pnpm
-        run: curl -f https://get.pnpm.io/v6.js | node - add --global pnpm@6
+
+      - uses: pnpm/action-setup@v2.0.0
+        with:
+          version: 6.0.2
 
       - name: Install dependencies
         run: pnpm bootstrap
+
       - name: Linting
         run: pnpm lint
