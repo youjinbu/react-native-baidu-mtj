@@ -1,6 +1,6 @@
 {
   "name": "@youjinbu/react-native-baidu-mtj",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react-native wrapper for baidu mtj sdk",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -47,11 +47,11 @@
   },
   "devDependencies": {
     "@types/react": "17.0.3",
-    "@types/react-native": "0.64.2",
+    "@types/react-native": "0.64.4",
     "@youjinbu/eslint-config": "0.5.0",
     "@youjinbu/prettier-config": "0.0.1",
     "eslint": "7.24.0",
-    "pod-install": "0.1.20",
+    "pod-install": "0.1.21",
     "prettier": "2.2.1",
     "react": "17.0.2",
     "react-native": "0.64.0",
@@ -59,8 +59,8 @@
     "typescript": "4.2.4"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": ">=16",
+    "react-native": ">=0.60.0"
   },
   "eslintConfig": {
     "root": true,

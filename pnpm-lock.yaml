@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/react': 17.0.3
-  '@types/react-native': 0.64.2
+  '@types/react-native': 0.64.4
   '@youjinbu/eslint-config': 0.5.0
   '@youjinbu/prettier-config': 0.0.1
   eslint: 7.24.0
-  pod-install: 0.1.20
+  pod-install: 0.1.21
   prettier: 2.2.1
   react: 17.0.2
   react-native: 0.64.0
@@ -15,11 +15,11 @@ specifiers:
 
 devDependencies:
   '@types/react': 17.0.3
-  '@types/react-native': 0.64.2
+  '@types/react-native': 0.64.4
   '@youjinbu/eslint-config': 0.5.0_980800e9dd52e0cffee9d1b5847827f5
   '@youjinbu/prettier-config': 0.0.1_prettier@2.2.1
   eslint: 7.24.0
-  pod-install: 0.1.20
+  pod-install: 0.1.21
   prettier: 2.2.1
   react: 17.0.2
   react-native: 0.64.0_react@17.0.2
@@ -1495,8 +1495,8 @@ packages:
     resolution: {integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==}
     dev: true
 
-  /@types/react-native/0.64.2:
-    resolution: {integrity: sha512-w2y04h+GVLY+OMlFSmq4adPuS51XtEp1yUr83OvXf+moMQ4zDG1Q07HhyvYDXdc+BSS9ANHySBqVCz0hFxli9Q==}
+  /@types/react-native/0.64.4:
+    resolution: {integrity: sha512-VqnlmadGkD5usREvnuyVpWDS1W8f6cCz6MP5fZdgONsaZ9/Ijfb9Iq9MZ5O3bnW1OyJixDX9HtSp3COsFSLD8Q==}
     dependencies:
       '@types/react': 17.0.3
     dev: true
@@ -4883,8 +4883,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pod-install/0.1.20:
-    resolution: {integrity: sha512-ilwKlmzUv9D8M2QbqxfaW2vvsP957Z85G7bNCkA/P2lU96KKMe1ftzKJdpR7Ch28c1o2dPRC+mGHBlH18BQPmw==}
+  /pod-install/0.1.21:
+    resolution: {integrity: sha512-m3wwcRKY5shcotdCae2jl3ICdZrZtCX7FdqGaUpquvmmgZ+3w0PUL7vVD/bsj1kbCw25qCqrtbn0ekyn9RABfQ==}
     hasBin: true
     dev: true
 

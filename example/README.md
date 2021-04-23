@@ -1,17 +1,17 @@
-> run these commands on root dir
-
 ## Start Packager
 
-- yarn bootstrap
-- yarn example start
+- pnpm i
+- yarn --cwd example install
+- pnpm --dir example start
 
 ## iOS
 
-- yarn example xcodegen
-- yarn ios --simulator 'iPhone 12'
+- pnpm --dir example xcodegen
+- pnpm --dir ios -- --simulator 'iPhone 12'
 
 ## Android
 
+- cd example
 - npx app-icon init
 - npx app-icon generate -p android
 - yarn android
