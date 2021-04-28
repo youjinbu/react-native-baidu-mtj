@@ -11,5 +11,5 @@ target 'example' do
     :hermes_enabled => false
   )
 
-  pod 'BaiduMobileAnalytics', :path => '../..'
+  pod 'BaiduMobileAnalytics', :path => '../../ios'
 end
