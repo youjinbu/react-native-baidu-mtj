@@ -12,4 +12,8 @@ target 'example' do
   )
 
   pod 'BaiduMobileAnalytics', :path => '../../ios'
+
+  post_install do |installer|
+    react_native_post_install(installer)
+  end
 end

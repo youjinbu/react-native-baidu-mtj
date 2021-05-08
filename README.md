@@ -33,15 +33,15 @@ export function SomeScreen() {
 
 ### Supported Methods
 
-```typescript
+```ts
 declare const Analytics: {
-    start(appKey: string, debug?: boolean): void;
-    setUserId(userId: string): void;
-    pageStart(pageName: string): void;
-    pageEnd(pageName: string): void;
-    event(eventId: string, label: string): void;
-    eventStart(eventId: string, label: string): void;
-    eventEnd(eventId: string, label: string): void;
+  start(appKey: string, debug?: boolean): void;
+  setUserId(userId: string): void;
+  pageStart(pageName: string): void;
+  pageEnd(pageName: string): void;
+  event(eventId: string, label: string): void;
+  eventStart(eventId: string, label: string): void;
+  eventEnd(eventId: string, label: string): void;
 };
 ```
 
