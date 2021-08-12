@@ -23,5 +23,6 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  }
+  },
+  "include": [".eslintrc.js", "src", "example", "babel.config.js"]
 }
