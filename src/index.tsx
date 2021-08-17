@@ -7,6 +7,10 @@ const Analytics = {
     BaiduMtj.start(appKey, __DEV__ ? debug : false)
   },
 
+  setChannel(channel: string) {
+    BaiduMtj.setChannel(channel)
+  },
+
   setUserId(userId: string) {
     BaiduMtj.setUserId(userId)
   },

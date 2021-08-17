@@ -10,6 +10,11 @@ class BaiduMtj: NSObject {
     BaiduMobStat.default().start(withAppId: appKey)
   }
 
+  @objc(setChannel:)
+  func setChannel(channel: String) {
+    BaiduMobStat.default().channelId = channel
+  }
+
   @objc(setUserId:)
   func setUserId(userId: String) {
     BaiduMobStat.default().userId = userId

@@ -18,6 +18,11 @@ class BaiduMtjModule(private val reactContext: ReactApplicationContext) : ReactC
   }
 
   @ReactMethod
+  fun setChannel(channel: String) {
+    StatService.setAppChannel(reactContext, channel, true)
+  }
+
+  @ReactMethod
   fun setUserId(userId: String) {
     StatService.setUserId(reactContext, userId)
   }

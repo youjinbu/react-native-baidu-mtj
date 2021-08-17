@@ -1,6 +1,6 @@
 {
   "name": "@youjinbu/react-native-baidu-mtj",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "react-native wrapper for baidu mtj sdk",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

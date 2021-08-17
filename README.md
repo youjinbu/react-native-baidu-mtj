@@ -36,6 +36,7 @@ export function SomeScreen() {
 ```ts
 declare const Analytics: {
   start(appKey: string, debug?: boolean): void;
+  setChannel(channel: string): void;
   setUserId(userId: string): void;
   pageStart(pageName: string): void;
   pageEnd(pageName: string): void;
