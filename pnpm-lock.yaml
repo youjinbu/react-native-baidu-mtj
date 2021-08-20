@@ -6,7 +6,7 @@ specifiers:
   '@youjinbu/eslint-config': 0.7.0
   '@youjinbu/prettier-config': 0.0.1
   eslint: 7.32.0
-  pod-install: 0.1.26
+  pod-install: 0.1.27
   prettier: 2.3.2
   react: 17.0.2
   react-native: 0.64.2
@@ -19,7 +19,7 @@ devDependencies:
   '@youjinbu/eslint-config': 0.7.0_aff669e8eb0d21fc4e2068e6112ef4d0
   '@youjinbu/prettier-config': 0.0.1_prettier@2.3.2
   eslint: 7.32.0
-  pod-install: 0.1.26
+  pod-install: 0.1.27
   prettier: 2.3.2
   react: 17.0.2
   react-native: 0.64.2_react@17.0.2
@@ -5071,8 +5071,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pod-install/0.1.26:
-    resolution: {integrity: sha512-cPuS5g/LgZrjvfynfiljfudAf2F3L86udzQQfPaHqbUfi2cEFsaTQPwlGuw9Xu33qPJJixGEZm4jV+SukzpgbA==}
+  /pod-install/0.1.27:
+    resolution: {integrity: sha512-t1bT52pqZq1SumvdVFqdsRAKUjFqRpoo3pIyditSpztV0nrVIqz5e5vDPxh1H1fH3GcgJ2ZqwkuKaFYnZXYjnQ==}
     hasBin: true
     dev: true
 
