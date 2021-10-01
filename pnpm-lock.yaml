@@ -10,7 +10,7 @@ specifiers:
   prettier: 2.4.1
   react: 17.0.2
   react-native: 0.65.1
-  react-native-builder-bob: 0.18.1
+  react-native-builder-bob: 0.18.2
   typescript: 4.4.3
 
 devDependencies:
@@ -23,7 +23,7 @@ devDependencies:
   prettier: 2.4.1
   react: 17.0.2
   react-native: 0.65.1_react@17.0.2
-  react-native-builder-bob: 0.18.1
+  react-native-builder-bob: 0.18.2
   typescript: 4.4.3
 
 packages:
@@ -5147,8 +5147,8 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-native-builder-bob/0.18.1:
-    resolution: {integrity: sha512-cFhgXLE30HaY4APDxaXA/cwuL3xl0Rser75yLrVTfHQquPqCoixNs+cc97Cbk/nInkkDmHzBoJkC3tVItqKRsQ==}
+  /react-native-builder-bob/0.18.2:
+    resolution: {integrity: sha512-HA7ryoG99tkWh92s7Qb/619qAAfa3TMAKP4Q5l/smqZQwnJ77z5ESiPgRZl8gQMiCnrmmPVb/c5yUscKOL9GdQ==}
     engines: {node: '>= 10.0.0'}
     hasBin: true
     dependencies:
