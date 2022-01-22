@@ -9,22 +9,22 @@ specifiers:
   pod-install: 0.1.31
   prettier: 2.5.1
   react: 17.0.2
-  react-native: 0.66.4
+  react-native: 0.67.1
   react-native-builder-bob: 0.18.2
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 devDependencies:
   '@types/react': 17.0.17
   '@types/react-native': 0.64.13
-  '@youjinbu/eslint-config': 0.9.1_18dc79504a18ff3305cc19a8d9c638fd
+  '@youjinbu/eslint-config': 0.9.1_f11522fde805f51f668ee73b4ebdf587
   '@youjinbu/prettier-config': 0.0.1_prettier@2.5.1
   eslint: 7.32.0
   pod-install: 0.1.31
   prettier: 2.5.1
   react: 17.0.2
-  react-native: 0.66.4_react@17.0.2
+  react-native: 0.67.1_react@17.0.2
   react-native-builder-bob: 0.18.2
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 packages:
 
@@ -1548,7 +1548,7 @@ packages:
       ora: 3.4.0
     dev: true
 
-  /@react-native-community/cli/6.0.0_react-native@0.66.4:
+  /@react-native-community/cli/6.0.0_react-native@0.67.1:
     resolution: {integrity: sha512-wTbdpai58WzUBrw8lNbF/cSzX3pOWz+y+d46ip3M3Abd5yHNRvhuejRMVQC1o9luOM+ESJa4imYSbVdh7y5g+w==}
     engines: {node: '>=12'}
     hasBin: true
@@ -1587,7 +1587,7 @@ packages:
       ora: 3.4.0
       pretty-format: 26.6.2
       prompts: 2.4.1
-      react-native: 0.66.4_react@17.0.2
+      react-native: 0.67.1_react@17.0.2
       semver: 6.3.0
       serve-static: 1.14.1
       strip-ansi: 5.2.0
@@ -1601,8 +1601,8 @@ packages:
     resolution: {integrity: sha512-KrwSpS1tKI70wuKl68DwJZYEvXktDHdZMG0k2AXD/rJVSlB23/X2CB2cutVR0HwNMJIal9HOUOBB2rVfa6UGtQ==}
     dev: true
 
-  /@react-native/normalize-color/1.0.0:
-    resolution: {integrity: sha512-xUNRvNmCl3UGCPbbHvfyFMnpvLPoOjDCcp5bT9m2k+TF/ZBklEQwhPZlkrxRx2NhgFh1X3a5uL7mJ7ZR+8G7Qg==}
+  /@react-native/normalize-color/2.0.0:
+    resolution: {integrity: sha512-Wip/xsc5lw8vsBlmY2MO/gFLp3MvuZ2baBZjDeTjjndMgM0h5sxz7AZR62RDPGgstp8Np7JzjvVqVT7tpFZqsw==}
     dev: true
 
   /@react-native/polyfills/2.0.0:
@@ -1703,7 +1703,7 @@ packages:
       '@types/yargs-parser': 20.2.1
     dev: true
 
-  /@typescript-eslint/eslint-plugin/5.0.0_185579838f8dd8d6c2850545f7b8d1fb:
+  /@typescript-eslint/eslint-plugin/5.0.0_ae020354c3da76ce329e71c9084ef5bf:
     resolution: {integrity: sha512-T6V6fCD2U0YesOedvydTnrNtsC8E+c2QzpawIpDdlaObX0OX5dLo7tLU5c64FhTZvA1Xrdim+cXDI7NPsVx8Cg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1714,8 +1714,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/experimental-utils': 5.0.0_eslint@7.32.0+typescript@4.5.4
-      '@typescript-eslint/parser': 5.0.0_eslint@7.32.0+typescript@4.5.4
+      '@typescript-eslint/experimental-utils': 5.0.0_eslint@7.32.0+typescript@4.5.5
+      '@typescript-eslint/parser': 5.0.0_eslint@7.32.0+typescript@4.5.5
       '@typescript-eslint/scope-manager': 5.0.0
       debug: 4.3.2
       eslint: 7.32.0
@@ -1723,13 +1723,13 @@ packages:
       ignore: 5.1.8
       regexpp: 3.2.0
       semver: 7.3.5
-      tsutils: 3.21.0_typescript@4.5.4
-      typescript: 4.5.4
+      tsutils: 3.21.0_typescript@4.5.5
+      typescript: 4.5.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/experimental-utils/5.0.0_eslint@7.32.0+typescript@4.5.4:
+  /@typescript-eslint/experimental-utils/5.0.0_eslint@7.32.0+typescript@4.5.5:
     resolution: {integrity: sha512-Dnp4dFIsZcPawD6CT1p5NibNUQyGSEz80sULJZkyhyna8AEqArmfwMwJPbmKzWVo4PabqNVzHYlzmcdLQWk+pg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1738,7 +1738,7 @@ packages:
       '@types/json-schema': 7.0.9
       '@typescript-eslint/scope-manager': 5.0.0
       '@typescript-eslint/types': 5.0.0
-      '@typescript-eslint/typescript-estree': 5.0.0_typescript@4.5.4
+      '@typescript-eslint/typescript-estree': 5.0.0_typescript@4.5.5
       eslint: 7.32.0
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0_eslint@7.32.0
@@ -1747,7 +1747,7 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/parser/5.0.0_eslint@7.32.0+typescript@4.5.4:
+  /@typescript-eslint/parser/5.0.0_eslint@7.32.0+typescript@4.5.5:
     resolution: {integrity: sha512-B6D5rmmQ14I1fdzs71eL3DAuvnPHTY/t7rQABrL9BLnx/H51Un8ox1xqYAchs0/V2trcoyxB1lMJLlrwrJCDgw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1759,10 +1759,10 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 5.0.0
       '@typescript-eslint/types': 5.0.0
-      '@typescript-eslint/typescript-estree': 5.0.0_typescript@4.5.4
+      '@typescript-eslint/typescript-estree': 5.0.0_typescript@4.5.5
       debug: 4.3.2
       eslint: 7.32.0
-      typescript: 4.5.4
+      typescript: 4.5.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1780,7 +1780,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree/5.0.0_typescript@4.5.4:
+  /@typescript-eslint/typescript-estree/5.0.0_typescript@4.5.5:
     resolution: {integrity: sha512-V/6w+PPQMhinWKSn+fCiX5jwvd1vRBm7AX7SJQXEGQtwtBvjMPjaU3YTQ1ik2UF1u96X7tsB96HMnulG3eLi9Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1795,8 +1795,8 @@ packages:
       globby: 11.0.4
       is-glob: 4.0.3
       semver: 7.3.5
-      tsutils: 3.21.0_typescript@4.5.4
-      typescript: 4.5.4
+      tsutils: 3.21.0_typescript@4.5.5
+      typescript: 4.5.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1809,14 +1809,14 @@ packages:
       eslint-visitor-keys: 3.0.0
     dev: true
 
-  /@youjinbu/eslint-config/0.9.1_18dc79504a18ff3305cc19a8d9c638fd:
+  /@youjinbu/eslint-config/0.9.1_f11522fde805f51f668ee73b4ebdf587:
     resolution: {integrity: sha512-QyU0LjiPC5dy5b+OLHhwxctDI/XjMksnguKtIjkeIhGc1HAVQ84L2Qz6SxF7GHxoKeupIeUju49iJ/yY9GDPUQ==}
     engines: {node: '>=14'}
     peerDependencies:
       eslint: '>=7.28.0'
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.0.0_185579838f8dd8d6c2850545f7b8d1fb
-      '@typescript-eslint/parser': 5.0.0_eslint@7.32.0+typescript@4.5.4
+      '@typescript-eslint/eslint-plugin': 5.0.0_ae020354c3da76ce329e71c9084ef5bf
+      '@typescript-eslint/parser': 5.0.0_eslint@7.32.0+typescript@4.5.5
       confusing-browser-globals: 1.0.10
       eslint: 7.32.0
       eslint-plugin-import: 2.25.2_eslint@7.32.0
@@ -5257,8 +5257,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /react-devtools-core/4.15.0:
-    resolution: {integrity: sha512-Y1NwrWSKRg4TtwcES2upzXFDmccAW9jrGQG2D8EGQrZhK+0hmuhgFnSdKpFc3z04CSeDT5t83RMXcmX5TkR1dA==}
+  /react-devtools-core/4.19.1:
+    resolution: {integrity: sha512-2wJiGffPWK0KggBjVwnTaAk+Z3MSxKInHmdzPTrBh1mAarexsa93Kw+WMX88+XjN+TtYgAiLe9xeTqcO5FfJTw==}
     dependencies:
       shell-quote: 1.7.2
       ws: 7.5.3
@@ -5305,8 +5305,8 @@ packages:
       - supports-color
     dev: true
 
-  /react-native-codegen/0.0.7:
-    resolution: {integrity: sha512-dwNgR8zJ3ALr480QnAmpTiqvFo+rDtq6V5oCggKhYFlRjzOmVSFn3YD41u8ltvKS5G2nQ8gCs2vReFFnRGLYng==}
+  /react-native-codegen/0.0.8:
+    resolution: {integrity: sha512-k/944+0XD+8l7zDaiKfYabyEKmAmyZgS1mj+4LcSRPyHnrjgCHKrh/Y6jM6kucQ6xU1+1uyMmF/dSkikxK8i+Q==}
     dependencies:
       flow-parser: 0.121.0
       jscodeshift: 0.11.0
@@ -5316,19 +5316,19 @@ packages:
       - supports-color
     dev: true
 
-  /react-native/0.66.4_react@17.0.2:
-    resolution: {integrity: sha512-9vx5dlSfQlKbbDtr8+xMon6qsmSu7jvjdXWZpEKh3XVKpUidbbODv7048gwVKX8YAel1egeR7hN8vzSeI6ssTw==}
+  /react-native/0.67.1_react@17.0.2:
+    resolution: {integrity: sha512-doKN9qhtjilF+6p8603OVzqGKL4fq8EDAH5u00KPmZbL5ampHDQX9y8/uwlUvJggvHwZXlnvhW63u8Y1LA8rxw==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
       react: 17.0.2
     dependencies:
       '@jest/create-cache-key-function': 27.1.0
-      '@react-native-community/cli': 6.0.0_react-native@0.66.4
+      '@react-native-community/cli': 6.0.0_react-native@0.67.1
       '@react-native-community/cli-platform-android': 6.0.0
       '@react-native-community/cli-platform-ios': 6.0.0
       '@react-native/assets': 1.0.0
-      '@react-native/normalize-color': 1.0.0
+      '@react-native/normalize-color': 2.0.0
       '@react-native/polyfills': 2.0.0
       abort-controller: 3.0.0
       anser: 1.4.10
@@ -5337,7 +5337,6 @@ packages:
       hermes-engine: 0.9.0
       invariant: 2.2.4
       jsc-android: 250230.2.1
-      metro-babel-register: 0.66.2
       metro-react-native-babel-transformer: 0.66.2
       metro-runtime: 0.66.2
       metro-source-map: 0.66.2
@@ -5346,8 +5345,8 @@ packages:
       promise: 8.1.0
       prop-types: 15.7.2
       react: 17.0.2
-      react-devtools-core: 4.15.0
-      react-native-codegen: 0.0.7
+      react-devtools-core: 4.19.1
+      react-native-codegen: 0.0.8
       react-refresh: 0.4.3
       regenerator-runtime: 0.13.9
       scheduler: 0.20.2
@@ -5833,6 +5832,7 @@ packages:
 
   /source-map-resolve/0.5.3:
     resolution: {integrity: sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==}
+    deprecated: See https://github.com/lydell/source-map-resolve#deprecated
     dependencies:
       atob: 2.1.2
       decode-uri-component: 0.2.0
@@ -5850,6 +5850,7 @@ packages:
 
   /source-map-url/0.4.1:
     resolution: {integrity: sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==}
+    deprecated: See https://github.com/lydell/source-map-url#deprecated
     dev: true
 
   /source-map/0.5.7:
@@ -6128,14 +6129,14 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /tsutils/3.21.0_typescript@4.5.4:
+  /tsutils/3.21.0_typescript@4.5.5:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 4.5.4
+      typescript: 4.5.5
     dev: true
 
   /type-check/0.4.0:
@@ -6165,8 +6166,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
