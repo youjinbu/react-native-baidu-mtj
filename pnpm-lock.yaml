@@ -9,7 +9,7 @@ specifiers:
   pod-install: 0.1.31
   prettier: 2.5.1
   react: 17.0.2
-  react-native: 0.67.1
+  react-native: 0.67.2
   react-native-builder-bob: 0.18.2
   typescript: 4.5.5
 
@@ -22,7 +22,7 @@ devDependencies:
   pod-install: 0.1.31
   prettier: 2.5.1
   react: 17.0.2
-  react-native: 0.67.1_react@17.0.2
+  react-native: 0.67.2_react@17.0.2
   react-native-builder-bob: 0.18.2
   typescript: 4.5.5
 
@@ -1548,7 +1548,7 @@ packages:
       ora: 3.4.0
     dev: true
 
-  /@react-native-community/cli/6.0.0_react-native@0.67.1:
+  /@react-native-community/cli/6.0.0_react-native@0.67.2:
     resolution: {integrity: sha512-wTbdpai58WzUBrw8lNbF/cSzX3pOWz+y+d46ip3M3Abd5yHNRvhuejRMVQC1o9luOM+ESJa4imYSbVdh7y5g+w==}
     engines: {node: '>=12'}
     hasBin: true
@@ -1587,7 +1587,7 @@ packages:
       ora: 3.4.0
       pretty-format: 26.6.2
       prompts: 2.4.1
-      react-native: 0.67.1_react@17.0.2
+      react-native: 0.67.2_react@17.0.2
       semver: 6.3.0
       serve-static: 1.14.1
       strip-ansi: 5.2.0
@@ -5316,15 +5316,15 @@ packages:
       - supports-color
     dev: true
 
-  /react-native/0.67.1_react@17.0.2:
-    resolution: {integrity: sha512-doKN9qhtjilF+6p8603OVzqGKL4fq8EDAH5u00KPmZbL5ampHDQX9y8/uwlUvJggvHwZXlnvhW63u8Y1LA8rxw==}
+  /react-native/0.67.2_react@17.0.2:
+    resolution: {integrity: sha512-grEtpOLLvtSg8Bivg0ffVRCjTkresqMt7Jdog/geF6VAYhb4RnLaaUCWvyrfyB9buf135FKnqg5BIuve/XQNXA==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
       react: 17.0.2
     dependencies:
       '@jest/create-cache-key-function': 27.1.0
-      '@react-native-community/cli': 6.0.0_react-native@0.67.1
+      '@react-native-community/cli': 6.0.0_react-native@0.67.2
       '@react-native-community/cli-platform-android': 6.0.0
       '@react-native-community/cli-platform-ios': 6.0.0
       '@react-native/assets': 1.0.0
