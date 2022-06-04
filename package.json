@@ -49,13 +49,13 @@
     "@types/react-native": "0.64.13",
     "@youjinbu/eslint-config": "0.9.1",
     "@youjinbu/prettier-config": "0.0.1",
-    "eslint": "8.16.0",
+    "eslint": "8.17.0",
     "pod-install": "0.1.36",
     "prettier": "2.6.2",
     "react": "17.0.2",
     "react-native": "0.68.2",
     "react-native-builder-bob": "0.18.2",
-    "typescript": "4.7.2"
+    "typescript": "4.7.3"
   },
   "peerDependencies": {
     "react": ">=16",
