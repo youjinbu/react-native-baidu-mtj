@@ -53,8 +53,8 @@
     "pod-install": "0.1.37",
     "prettier": "2.7.1",
     "react": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-builder-bob": "0.18.2",
+    "react-native": "0.69.0",
+    "react-native-builder-bob": "0.18.3",
     "typescript": "4.7.4"
   },
   "peerDependencies": {
