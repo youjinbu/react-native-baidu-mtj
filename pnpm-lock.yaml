@@ -7,7 +7,7 @@ specifiers:
   '@youjinbu/prettier-config': 0.0.1
   eslint: 8.33.0
   pod-install: 0.1.38
-  prettier: 2.8.3
+  prettier: 2.8.4
   react: 17.0.2
   react-native: 0.71.2
   react-native-builder-bob: 0.20.3
@@ -16,11 +16,11 @@ specifiers:
 devDependencies:
   '@types/react': 17.0.17
   '@types/react-native': 0.64.13
-  '@youjinbu/eslint-config': 0.10.0_45e7c5f9f32f3e661cf4b8aa4e8d9218
-  '@youjinbu/prettier-config': 0.0.1_prettier@2.8.3
+  '@youjinbu/eslint-config': 0.10.0_92f983c31ff796f6710e015ddac6f073
+  '@youjinbu/prettier-config': 0.0.1_prettier@2.8.4
   eslint: 8.33.0
   pod-install: 0.1.38
-  prettier: 2.8.3
+  prettier: 2.8.4
   react: 17.0.2
   react-native: 0.71.2_react@17.0.2
   react-native-builder-bob: 0.20.3
@@ -2549,7 +2549,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@youjinbu/eslint-config/0.10.0_45e7c5f9f32f3e661cf4b8aa4e8d9218:
+  /@youjinbu/eslint-config/0.10.0_92f983c31ff796f6710e015ddac6f073:
     resolution: {integrity: sha512-QvlCl0tDF4/t9P5r+eow5+Uuja/Ukrhvt5ZI2NVn488KTkl0wZHkJDGuoEdqYcCWkhnDgCoE9ZgWbVMXsPKdEQ==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -2561,7 +2561,7 @@ packages:
       confusing-browser-globals: 1.0.11
       eslint: 8.33.0
       eslint-plugin-import: 2.26.0_fc0cbcac9509e3ac6ffa052bf6349cde
-      eslint-plugin-prettier: 4.2.1_eslint@8.33.0+prettier@2.8.3
+      eslint-plugin-prettier: 4.2.1_eslint@8.33.0+prettier@2.8.4
       eslint-plugin-react: 7.30.1_eslint@8.33.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
       eslint-plugin-unicorn: 43.0.2_eslint@8.33.0
@@ -2574,12 +2574,12 @@ packages:
       - supports-color
     dev: true
 
-  /@youjinbu/prettier-config/0.0.1_prettier@2.8.3:
+  /@youjinbu/prettier-config/0.0.1_prettier@2.8.4:
     resolution: {integrity: sha512-e0ebwaK7ScgpnrtVIg1nvSNm2dXSTX3xI5coqygFfP/5BfAiYAonK62ktDv5fBJpKcTcqtM1moFU1h86q16ImQ==}
     peerDependencies:
       prettier: 2.*
     dependencies:
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
   /abort-controller/3.0.0:
@@ -3717,7 +3717,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_eslint@8.33.0+prettier@2.8.3:
+  /eslint-plugin-prettier/4.2.1_eslint@8.33.0+prettier@2.8.4:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3729,7 +3729,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.33.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -6072,8 +6072,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
