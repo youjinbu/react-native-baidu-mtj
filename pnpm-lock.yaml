@@ -8,7 +8,7 @@ specifiers:
   eslint: 8.35.0
   pod-install: 0.1.38
   prettier: 2.8.4
-  react: 17.0.2
+  react: 18.2.0
   react-native: 0.71.3
   react-native-builder-bob: 0.20.4
   typescript: 4.9.5
@@ -21,8 +21,8 @@ devDependencies:
   eslint: 8.35.0
   pod-install: 0.1.38
   prettier: 2.8.4
-  react: 17.0.2
-  react-native: 0.71.3_react@17.0.2
+  react: 18.2.0
+  react-native: 0.71.3_react@18.2.0
   react-native-builder-bob: 0.20.4
   typescript: 4.9.5
 
@@ -5656,7 +5656,7 @@ packages:
     resolution: {integrity: sha512-7S3pAuPaQJlhax6EZ4JMsDNpj05TfuzX9gPgWLrFfAIWIFLuJ6aDQYAZy2TEI9QJALPoWrj8LWaqP/DGYh14pw==}
     dev: true
 
-  /react-native/0.71.3_react@17.0.2:
+  /react-native/0.71.3_react@18.2.0:
     resolution: {integrity: sha512-RYJXCcQGa4NTfKiPgl92eRDUuQ6JGDnHqFEzRwJSqEx9lWvlvRRIebstJfurzPDKLQWQrvITR7aI7e09E25mLw==}
     engines: {node: '>=14'}
     hasBin: true
@@ -5686,16 +5686,16 @@ packages:
       nullthrows: 1.1.1
       pretty-format: 26.6.2
       promise: 8.3.0
-      react: 17.0.2
+      react: 18.2.0
       react-devtools-core: 4.27.1
       react-native-codegen: 0.71.5
       react-native-gradle-plugin: 0.71.15
       react-refresh: 0.4.3
-      react-shallow-renderer: 16.15.0_react@17.0.2
+      react-shallow-renderer: 16.15.0_react@18.2.0
       regenerator-runtime: 0.13.9
       scheduler: 0.23.0
       stacktrace-parser: 0.1.10
-      use-sync-external-store: 1.2.0_react@17.0.2
+      use-sync-external-store: 1.2.0_react@18.2.0
       whatwg-fetch: 3.6.2
       ws: 6.2.2
     transitivePeerDependencies:
@@ -5710,22 +5710,21 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-shallow-renderer/16.15.0_react@17.0.2:
+  /react-shallow-renderer/16.15.0_react@18.2.0:
     resolution: {integrity: sha512-oScf2FqQ9LFVQgA73vr86xl2NaOIX73rh+YFqcOp68CWj56tSfgtGKrEbyhCj0rSijyG9M1CYprTh39fBi5hzA==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 18.2.0
       react-is: 18.2.0
     dev: true
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: true
 
   /read-pkg-up/7.0.1:
@@ -6638,12 +6637,12 @@ packages:
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
 
-  /use-sync-external-store/1.2.0_react@17.0.2:
+  /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 17.0.2
+      react: 18.2.0
     dev: true
 
   /use/3.1.1:
